@@ -14,7 +14,6 @@ public class CreeperFaceGeneratorPlugin extends PluginBase {
 
         }
 
-        Generator.addGenerator(CreeperFaceGenerator.class, "default", Generator.TYPE_INFINITE);
-        Generator.addGenerator(CreeperFaceGenerator.class, "normal", Generator.TYPE_INFINITE);
+        Generator.addGenerator(CreeperFaceGenerator.class, "creeper", Generator.TYPE_INFINITE);
     }
 }
